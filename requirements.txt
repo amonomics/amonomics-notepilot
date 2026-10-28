@@ -1,0 +1,172 @@
+# amonomics notepilot
+
+amonomics notepilot is a business-first AI note-taking and meeting intelligence dashboard designed for enterprise teams, executive workflows, sales operations, and cross-functional collaboration.
+
+It is inspired by the productivity and note-capture concept behind Cluely, but re-positioned for secure business use: meeting summaries, action-item extraction, institutional memory, compliance readiness, and team knowledge capture.
+
+## Product overview
+
+amonomics notepilot helps teams:
+- capture and organize notes from meetings, calls, and team discussions
+- extract decisions, risks, and follow-up actions automatically
+- maintain a searchable knowledge base for recurring business context
+- summarize customer, product, and executive conversations in real time
+- align teams around decisions, owners, and deadlines
+- support enterprise requirements such as access control, governance, and auditability
+
+## Key capabilities
+
+- Executive dashboard with KPI cards and note intelligence
+- Meeting summary and decision capture
+- AI-generated action items and risk alerts
+- Knowledge workspace and team context memory
+- Integration-ready architecture for CRM, task, chat, and productivity tools
+- Secure workspace patterns for enterprise use
+- Modern, responsive interface built with React and Vite
+
+## Supported use cases
+
+- Sales calls and customer review meetings
+- Product planning and roadmap discussions
+- Executive briefings and board prep
+- Internal team standups and cross-functional reviews
+- Compliance and governance-sensitive meeting summarization
+- Institutional memory and searchable organizational knowledge
+
+## Tech stack
+
+- Frontend: React + TypeScript + Vite
+- Styling: CSS with a modern enterprise dashboard aesthetic
+- Runtime: Node.js + npm
+- Architecture: modular React app with service-ready patterns for future API/backend extension
+
+## Repository structure
+
+```text
+amonomics-notepilot/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   └── styles.css
+├── docs/
+│   ├── INSTALLATION.md
+│   ├── ARCHITECTURE.md
+│   ├── DEVELOPMENT.md
+│   ├── DEPLOYMENT.md
+│   └── FAQ.md
+└── .gitignore
+```
+
+## Requirements
+
+Before installation, make sure your machine has:
+- Node.js 18 or newer
+- npm 9 or newer
+- Git
+- A modern browser
+
+## Quick start
+
+```bash
+npm install
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:5173
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+Then preview the built app:
+
+```bash
+npm run preview
+```
+
+## Environment configuration
+
+Copy the example environment file:
+
+```bash
+cp .env.example .env
+```
+
+Example values:
+
+```env
+VITE_APP_NAME=amonomics notepilot
+VITE_API_BASE_URL=https://api.example.com
+VITE_DEFAULT_WORKSPACE=Northwind Global
+```
+
+## Installation guide
+
+Detailed setup instructions are available in:
+- [docs/INSTALLATION.md](docs/INSTALLATION.md)
+
+## Development guide
+
+For development practices, architecture, and coding standards, see:
+- [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)
+
+## Architecture guide
+
+For the system design and app structure overview, see:
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+## Deployment guide
+
+For production deployment preparation and hosting guidance, see:
+- [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
+
+## FAQ
+
+Common setup and usage answers are covered in:
+- [docs/FAQ.md](docs/FAQ.md)
+
+## Security and enterprise positioning
+
+This application is designed around the needs of enterprise usage rather than consumer-side automation. It supports:
+- role-based workspace concepts
+- compliance-aware note handling patterns
+- secure enterprise-style workflows
+- organized executive summaries and operational memory
+
+## Roadmap
+
+Planned enhancements include:
+- meeting transcription integration
+- AI summarization API integration
+- CRM and task workflow connectors
+- authentication and RBAC
+- persistent enterprise data backend
+- audit logs and retention policies
+- team sharing and collaboration modules
+- semantic search and knowledge retrieval
+
+## Contributing
+
+Contributions are welcome. Please keep changes aligned with the enterprise productivity goals of the app and preserve a clean, maintainable code structure.
+
+## License
+
+MIT
+
+## Support
+
+For questions or enhancement requests, open an issue in the repository or contact the maintainers through the project’s GitHub workflow.
